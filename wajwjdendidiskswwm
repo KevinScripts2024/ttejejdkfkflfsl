@@ -726,7 +726,6 @@ function Kavo.CreateLib(kavName, themeList)
                         if not hovering then
                             buttonElement.BackgroundColor3 = themeList.ElementColor
                         end
-                        viewInfo.ImageColor3 = themeList.SchemeColor
                         Sample.ImageColor3 = themeList.SchemeColor
                         moreInfo.BackgroundColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 14, themeList.SchemeColor.g * 255 - 17, themeList.SchemeColor.b * 255 - 13)
                         moreInfo.TextColor3 = themeList.TextColor
