@@ -563,6 +563,7 @@ function Kavo.CreateLib(kavName, themeList)
                 local buttonElement = Instance.new("TextButton")
                 local UICorner = Instance.new("UICorner")
                 local btnInfo = Instance.new("TextLabel")
+                local viewInfo = Instance.new("ImageButton")
                 local touch = Instance.new("ImageLabel")
                 local Sample = Instance.new("ImageLabel")
 
